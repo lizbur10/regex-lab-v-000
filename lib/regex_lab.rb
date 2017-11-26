@@ -24,4 +24,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.grep(/\D*\d{3}\D*\d{3}\D*\d{4}\D*/)
+    true
+  else
+    false
+  end
 end
